@@ -1,0 +1,366 @@
+.t1 {
+  font-family: "DM Serif Text", sans-serif;
+}
+
+.button {
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.125rem;
+  letter-spacing: 0.12em;
+
+  &__header {
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.313rem;
+    letter-spacing: 0.12em;
+    text-align: center;
+  }
+
+  &__purple {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.313rem;
+    text-align: center;
+    letter-spacing: 0.12em;
+
+    color: #ffffff;
+  }
+}
+
+.navigation {
+  &__main {
+    &--left-p {
+      color: #000000;
+      font-size: 1.75rem;
+      font-weight: 700;
+      line-height: 2rem;
+      letter-spacing: 0.28em;
+      text-align: left;
+    }
+    &--item {
+      a {
+        font-size: 0.875rem;
+        font-weight: 500;
+        line-height: 18px;
+        letter-spacing: 0.16em;
+        text-align: left;
+        color: #000000;
+        @media only screen and (max-width: 700px) {
+          font-size: 1rem;
+          line-height: 1.4rem;
+        }
+      }
+    }
+  }
+}
+
+.hero {
+  text-align: left;
+  &__header {
+    &-h {
+      font-family: "DM Serif Text", sans-serif;
+      font-size: 2.8rem;
+      font-weight: 400;
+      line-height: 3rem;
+      letter-spacing: 0em;
+    }
+    &-p {
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 1.4rem;
+      letter-spacing: 0.01em;
+      letter-spacing: 1%;
+      @media only screen and (max-width: 1024px) {
+        font-size: 1.2rem;
+        line-height: 1.4rem;
+      }
+      @media only screen and (max-width: 650px) {
+        font-size: 1.2rem;
+        line-height: 1.4rem;
+      }
+      @media only screen and (max-width: 440px) {
+        font-size: 1rem;
+        line-height: 1.4rem;
+      }
+    }
+  }
+}
+
+.plan {
+  font-family: "DM Serif Text", sans-serif;
+  &__mid {
+    &-box {
+      &-h {
+        font-size: 3rem;
+        font-weight: 400;
+        line-height: 49px;
+        letter-spacing: 0em;
+        text-align: center;
+        opacity: 1 !important;
+      }
+      &-p {
+        font-size: 3.5rem;
+        font-weight: 400;
+        line-height: 57px;
+        letter-spacing: 0.12em;
+        text-align: center;
+      }
+      &-bg {
+      }
+      &-bg2 {
+      }
+    }
+  }
+
+  &__content {
+  }
+  &__top {
+    text-align: center;
+    &-h {
+      font-size: 3rem;
+      font-weight: 400;
+      line-height: 3.5rem;
+      letter-spacing: 0em;
+      text-align: center;
+    }
+  }
+
+  &__bottom {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.01em;
+    text-align: left;
+  }
+}
+
+.main {
+  text-align: center;
+  font-family: "DM Serif Text", sans-serif;
+
+  &__header {
+    &-p {
+      font-size: 3rem;
+      font-weight: 400;
+      line-height: 4rem;
+      letter-spacing: 0em;
+      text-align: center;
+    }
+  }
+  &__content {
+    margin: 0 auto;
+  }
+  &__top {
+    &--img {
+      &-box {
+      }
+      &-1 {
+      }
+      &-2 {
+      }
+      &-p {
+        color: #ef8094;
+        font-family: DM Serif Text;
+        font-size: 220px;
+        font-weight: 400;
+        line-height: 56px;
+        letter-spacing: 0em;
+        text-align: left;
+      }
+
+      &-box {
+      }
+    }
+    &--aside {
+      &-h {
+        font-size: 2rem;
+        font-weight: 400;
+        line-height: 3.5rem;
+        letter-spacing: 0em;
+        text-align: left;
+      }
+      &-p {
+        font-size: 1.2rem;
+        font-weight: 400;
+        line-height: 1.5rem;
+        letter-spacing: 0.01em;
+        text-align: left;
+
+        @media screen and (max-width: 668px) {
+          font-size: 1rem;
+        }
+        @media screen and (max-width: 650px) {
+          font-size: 1.2rem;
+        }
+      }
+    }
+  }
+
+  &__mid {
+    &--img {
+      &-1 {
+      }
+      &-2 {
+      }
+      &-p {
+        font-size: 220px;
+        font-weight: 400;
+        line-height: 56px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #ef8094;
+      }
+
+      &-box {
+      }
+    }
+    &--aside {
+      &-h {
+        font-size: 2rem;
+        font-weight: 400;
+        line-height: 2.5rem;
+        letter-spacing: 0em;
+        text-align: left;
+      }
+      &-p {
+        font-size: 3rem;
+        font-weight: 400;
+        line-height: 4rem;
+        letter-spacing: 0em;
+        text-align: center;
+        @media only screen and (max-width: 650px) {
+        }
+      }
+    }
+  }
+
+  &__bottom {
+    &--img {
+      &-1 {
+      }
+      &-2 {
+      }
+      &-p {
+        font-family: DM Serif Text;
+        font-size: 220px;
+        font-weight: 400;
+        line-height: 56px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #ef8094;
+      }
+
+      &-box {
+      }
+    }
+    &--aside {
+      &-h {
+        font-size: 2rem;
+        font-weight: 400;
+        line-height: 3.5rem;
+        letter-spacing: 0em;
+        text-align: left;
+      }
+      &-p {
+        font-size: 1.2rem;
+        font-weight: 400;
+        line-height: 1.5rem;
+        letter-spacing: 0.01em;
+        text-align: left;
+        @media screen and (max-width: 750px) {
+          font-size: 1rem;
+        }
+        @media screen and (max-width: 650px) {
+          font-size: 1.2rem;
+        }
+      }
+    }
+  }
+}
+
+.social {
+  &__header {
+    font-size: 3rem;
+    font-weight: 400;
+    line-height: 3.5rem;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+
+  &__main {
+    &--box {
+      &-img {
+      }
+      &-p {
+        margin-top: 2rem;
+        font-size: 1.5rem;
+        font-weight: 400;
+        line-height: 2rem;
+        letter-spacing: 0.01em;
+        text-align: left;
+        color: #000000;
+      }
+    }
+  }
+}
+
+///footer
+
+.footer {
+  color: #000000;
+  &__main {
+  }
+  &__top {
+    &__right {
+      &--list {
+        list-style: none;
+      }
+      &--item {
+      }
+      &--link {
+      }
+    }
+  }
+  &__mid {
+    &--conteiner {
+      &-box {
+      }
+    }
+    &--list {
+      list-style: none;
+      li:first-child {
+        :first-child {
+          font-size: 20px;
+          font-weight: 700;
+          line-height: 26px;
+          letter-spacing: 0.12em;
+          text-align: left;
+        }
+      }
+    }
+    &--item {
+    }
+    &--link {
+      font-size: 0.9rem;
+      font-weight: 500;
+      line-height: 1.125rem;
+      letter-spacing: 0.12em;
+      text-align: left;
+      text-decoration: none;
+      color: #000000;
+    }
+  }
+  &__bottom {
+    &--list {
+      list-style: none;
+    }
+    &--item {
+    }
+    &--link {
+      text-decoration: none;
+      color: #000000;
+    }
+  }
+}
